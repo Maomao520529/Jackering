@@ -1,0 +1,56 @@
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow:none;
+}
+.btn-group{
+    border: 1px solid #eee;
+}
+
+
+.btn-outline-info:hover{
+    color: $text-white;
+}
+
+.btn-color{
+    color: $text-gray;
+   
+}
+.btn-color:hover{
+    color: $text-gray;
+}
+.btn-check:active+.btn-info, .btn-check:checked+.btn-info, .btn-info.active, .btn-info:active, .show>.btn-info.dropdown-toggle{
+    color: $text-white;
+}
+.banner{
+    .container{
+    background: url("https://s3-alpha-sig.figma.com/img/8655/2d19/44340ee074a31ad5d0321f57f4e66460?Expires=1623628800&Signature=OZjsZ4ouKlvD95~M5G9rcU4HdqTrcz903alEIOU~u0Sq4gKVfXvUJcsO~PfYBvUfeLp8sY9QrSZQoQFXOvXc5lvjaADkJCDUP5eiyuoLyQKE4X3Xa5H~~p0gAmmaGyzh95bFBTnRXoWkx0m8fF6se~u0CTqe5ind1GUaFw1hNFKb1rXc7RttUf0wKqceSYDFMNBQDcLF55p1dP4E10rSkBiSPKjeKJu~oCTeg4cc9kLbBonvse8qjHqy05qepLv0gU2pu2PMwyA5fH06SC6JXySTTHT9C5wl~X5unHjTJaU1wYnNAPzd40WiL71nyPKg-sXo-9LnRU6NPB1kf53J~g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+       
+    }
+}   
+.card-text{
+    font-size: $fs-sm;
+}
+.position-text{
+    font-size: $fs-sm;
+}
+
+// *{
+//     border: 1px solid red;
+// }
+
+.progress{
+    width: 200px;
+}
+
+.main_3_text{
+    font-size: $fs-xxl;
+}
+.main_3_text_1{
+    font-size: $fs-xl;
+}

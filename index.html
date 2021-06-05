@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-lg-between">
+                <a class="navbar-brand" href="#"><b>Jacker</b><span class="text-info">clean</span>ing潔客幫 </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link " href="#">找打掃</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">企業清潔</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                全部服務
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-info fw-bold active" href="#">成為潔客</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">生活知識站</a></li>
+                    </ul>
+                    <button class="btn btn-outline-info rounded-pill mx-2 my-2 py-2">註冊登入</button>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+
+    <div class="banner bg-light">
+        <div class="container py-5">
+            <h1 class="text-center py-5">預約居家清潔，三分鐘馬上搞定！</h1>
+            <div class="container-fluid w-50 ">
+                <nav class="bg-light ">
+                    <div class="nav nav-tabs bg-light" id="nav-tab" role="tablist">
+                        <button class="nav-link text-info fw-bold active" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">快速預約</button>
+                        <button class="nav-link text-muted fw-bold" id="nav-profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                            aria-selected="false">雙人快清</button>
+                        <button class="nav-link text-muted fw-bold" id="nav-contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                            aria-selected="false">指定人員</button>
+                        <button class="nav-link text-muted fw-bold" id="nav-contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                            aria-selected="false">定期享優惠</button>
+                    </div>
+                </nav>
+                <div class="tab-content bg-light" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="py-4 px-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>台北市 大同區</option>
+                            </select>
+                        </div>
+                        <div class="p-3">
+                            <select class="form-select " aria-label="Default select example">
+                                <option selected>3小時</option>
+                            </select>
+                        </div>
+                        <div class="d-flex justify-content-between py-3">
+                            <p class="px-3">家中有寵物 ? </p>
+                            <div class="btn-group    btn-toggle rounded-pill mx-3">
+                                <button class="btn btn-color btn-md btn-info   rounded-pill active">無</button>
+                                <button class="btn btn-color btn-md btn-default rounded-pill ">有</button>
+                            </div>
+                        </div>
+                        <div class="text-center py-2">
+                            <button class="btn btn-info text-white rounded-1 w-75">開始預約，查看清潔價格</button>
+                            <p class="py-2 fs-6">找約過的人員？<span class="text-info">輸入您的手機號碼</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main bg-light">
+        <div class="container py-5 ">
+            <h2 class="text-center py-2"> 鐘點清潔會掃哪裡?時數怎麼算?</h2>
+            <p class="text-center">可以根據自己的需求查看會清潔的細項，並預估總共需要的時數，當天清潔人員會再討論狀況做些調整！</p>
+            <div class="text-center">
+                <button class=" btn text-info bg-white border-info">時數計算教學</button>
+            </div>
+            <div class="container-fluid">
+                <div class="row py-5 px-5">
+                    <div class="col col-md-4 ">
+                        <div class="card" style="width: 22rem;">
+                            <img src="https://s3-alpha-sig.figma.com/img/4559/3083/0f802a7dc7abc13d5f2055c820679c4d?Expires=1623628800&Signature=P89-iT6iaKvCectJhrBAMD1QMeB0g4tfmshDdX8hxqr9pIc4lVW6oNEObg~Kt8ZdvgiEOfUhizjA4541UyMrsDEq1VdUNaByvx8O6s0z~7v27hFVKQ27R9jWE3DvVLs0CkuZDeqmK-LAUMjwZmXbVd2nYFVYTy~zdwASQP1E1Rd3-1o-2u1l6iQl~nHYKPnmuHqh3tPYeB~7VlPP5AXT1N~STw5nrJuCCtVxx7Am-Uf61S3RZs0X78fvQa4dtSh7uGclCyY87gQ3p9hWTcfY7rTSe2QuwGP8-HGF7oSXD5ACHaj2uk3iV1GBLGe2REvoiEKxOzu3b2bUD7RbS8mecw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">客廳清潔</h5>
+                            <div class="d-flex">
+                                <ul>
+                                    <li>沙發擦拭</li>
+                                    <li>桌、櫃擦拭</li>
+                                    <li>燈具表面擦拭</li>
+                                    <li>垃圾打包</li>
+                                </ul>
+                                <ul>
+                                    <li>地毯除塵</li>
+                                    <li>地板清潔</li>
+                                    <li>雜物整理</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex">
+                                <ul class="list-unstyled">
+                                    <li><span class="text-danger mx-1"><i class="fas fa-times"></i></span>沙發深層污漬</li>
+                                    <li><span class="text-danger mx-1"><i class="fas fa-times"></i></span>天花板層板清潔</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li><span class="text-danger mx-2"><i class="fas fa-times"></i></span>地毯深層污漬</li>
+                                    <li><span class="text-danger mx-2"><i class="fas fa-times"></i></span>吊燈清潔</li>
+                                </ul>
+                            </div>
+                            <p class="card-text text-muted">建議您與潔客可採用安全之方式拆下後，交由潔客做清洗。</p> 
+                            </div>
+                            <div class="row">
+                                <div class="col-4 mx-3">
+                                    <i class="far fa-clock fa-3x"></i>
+                                    <span >0.5~1.5</span>
+                                </div>
+                                <div class="col-6 position-relative">
+                                    <div class="position-absolute position-text top-0 start-0">普通清潔</div>
+                                    <div class="position-absolute position-text top-0 end-0">空間大、許久未整理</div>
+                                    <div class="progress position-absolute top-50 start-50 translate-middle" style="height: 2px;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0"></div>
+                                    </div>
+                                    <div class="position-absolute bottom-0 start-0">0.5 hr</div>
+                                    <div class="position-absolute bottom-0 end-0">1.5 hr</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 pt-3">
+                        <div class="card" style="width: 22rem;">
+                            <img src="https://s3-alpha-sig.figma.com/img/4559/3083/0f802a7dc7abc13d5f2055c820679c4d?Expires=1623628800&Signature=P89-iT6iaKvCectJhrBAMD1QMeB0g4tfmshDdX8hxqr9pIc4lVW6oNEObg~Kt8ZdvgiEOfUhizjA4541UyMrsDEq1VdUNaByvx8O6s0z~7v27hFVKQ27R9jWE3DvVLs0CkuZDeqmK-LAUMjwZmXbVd2nYFVYTy~zdwASQP1E1Rd3-1o-2u1l6iQl~nHYKPnmuHqh3tPYeB~7VlPP5AXT1N~STw5nrJuCCtVxx7Am-Uf61S3RZs0X78fvQa4dtSh7uGclCyY87gQ3p9hWTcfY7rTSe2QuwGP8-HGF7oSXD5ACHaj2uk3iV1GBLGe2REvoiEKxOzu3b2bUD7RbS8mecw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">客廳清潔</h5>
+                            <div class="d-flex">
+                                <ul>
+                                    <li>沙發擦拭</li>
+                                    <li>桌、櫃擦拭</li>
+                                    <li>燈具表面擦拭</li>
+                                    <li>垃圾打包</li>
+                                </ul>
+                                <ul>
+                                    <li>地毯除塵</li>
+                                    <li>地板清潔</li>
+                                    <li>雜物整理</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex">
+                                <ul class="list-unstyled">
+                                    <li><span class="text-danger mx-1"><i class="fas fa-times"></i></span>沙發深層污漬</li>
+                                    <li><span class="text-danger mx-1"><i class="fas fa-times"></i></span>天花板層板清潔</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li><span class="text-danger mx-2"><i class="fas fa-times"></i></span>地毯深層污漬</li>
+                                    <li><span class="text-danger mx-2"><i class="fas fa-times"></i></span>吊燈清潔</li>
+                                </ul>
+                            </div>
+                            <p class="card-text text-muted">建議您與潔客可採用安全之方式拆下後，交由潔客做清洗。</p> 
+                            </div>
+                            <div class="row">
+                                <div class="col-4 mx-3">
+                                    <i class="far fa-clock fa-3x"></i>
+                                    <span >0.5~1.5</span>
+                                </div>
+                                <div class="col-6 position-relative">
+                                    <div class="position-absolute position-text top-0 start-0">普通清潔</div>
+                                    <div class="position-absolute position-text top-0 end-0">空間大、許久未整理</div>
+                                    <div class="progress position-absolute top-50 start-50 translate-middle" style="height: 2px;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0"></div>
+                                    </div>
+                                    <div class="position-absolute bottom-0 start-0">0.5 hr</div>
+                                    <div class="position-absolute bottom-0 end-0">1.5 hr</div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end m-2">
+                                <span>冰箱內部整理、清潔       + 1 ~1.5hr</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col col-md-4 pt-3">
+                        <div class="card" style="width: 22rem;">
+                            <img src="https://s3-alpha-sig.figma.com/img/4559/3083/0f802a7dc7abc13d5f2055c820679c4d?Expires=1623628800&Signature=P89-iT6iaKvCectJhrBAMD1QMeB0g4tfmshDdX8hxqr9pIc4lVW6oNEObg~Kt8ZdvgiEOfUhizjA4541UyMrsDEq1VdUNaByvx8O6s0z~7v27hFVKQ27R9jWE3DvVLs0CkuZDeqmK-LAUMjwZmXbVd2nYFVYTy~zdwASQP1E1Rd3-1o-2u1l6iQl~nHYKPnmuHqh3tPYeB~7VlPP5AXT1N~STw5nrJuCCtVxx7Am-Uf61S3RZs0X78fvQa4dtSh7uGclCyY87gQ3p9hWTcfY7rTSe2QuwGP8-HGF7oSXD5ACHaj2uk3iV1GBLGe2REvoiEKxOzu3b2bUD7RbS8mecw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">客廳清潔</h5>
+                            <div class="d-flex">
+                                <ul>
+                                    <li>沙發擦拭</li>
+                                    <li>桌、櫃擦拭</li>
+                                    <li>燈具表面擦拭</li>
+                                    <li>垃圾打包</li>
+                                </ul>
+                                <ul>
+                                    <li>地毯除塵</li>
+                                    <li>地板清潔</li>
+                                    <li>雜物整理</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex">
+                                <ul class="list-unstyled">
+                                    <li><span class="text-danger mx-1"><i class="fas fa-times"></i></span>沙發深層污漬</li>
+                                    <li><span class="text-danger mx-1"><i class="fas fa-times"></i></span>天花板層板清潔</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li><span class="text-danger mx-2"><i class="fas fa-times"></i></span>地毯深層污漬</li>
+                                    <li><span class="text-danger mx-2"><i class="fas fa-times"></i></span>吊燈清潔</li>
+                                </ul>
+                            </div>
+                            <p class="card-text text-muted">建議您與潔客可採用安全之方式拆下後，交由潔客做清洗。</p> 
+                            </div>
+                            <div class="row">
+                                <div class="col-4 mx-3">
+                                    <i class="far fa-clock fa-3x"></i>
+                                    <span >0.5~1.5</span>
+                                </div>
+                                <div class="col-6 position-relative">
+                                    <div class="position-absolute position-text top-0 start-0">普通清潔</div>
+                                    <div class="position-absolute position-text top-0 end-0">空間大、許久未整理</div>
+                                    <div class="progress position-absolute top-50 start-50 translate-middle" style="height: 2px;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0"></div>
+                                    </div>
+                                    <div class="position-absolute bottom-0 start-0">0.5 hr</div>
+                                    <div class="position-absolute bottom-0 end-0">1.5 hr</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 pt-3">
+                        <div class="card" style="width: 22rem;">
+                            <img src="https://s3-alpha-sig.figma.com/img/4559/3083/0f802a7dc7abc13d5f2055c820679c4d?Expires=1623628800&Signature=P89-iT6iaKvCectJhrBAMD1QMeB0g4tfmshDdX8hxqr9pIc4lVW6oNEObg~Kt8ZdvgiEOfUhizjA4541UyMrsDEq1VdUNaByvx8O6s0z~7v27hFVKQ27R9jWE3DvVLs0CkuZDeqmK-LAUMjwZmXbVd2nYFVYTy~zdwASQP1E1Rd3-1o-2u1l6iQl~nHYKPnmuHqh3tPYeB~7VlPP5AXT1N~STw5nrJuCCtVxx7Am-Uf61S3RZs0X78fvQa4dtSh7uGclCyY87gQ3p9hWTcfY7rTSe2QuwGP8-HGF7oSXD5ACHaj2uk3iV1GBLGe2REvoiEKxOzu3b2bUD7RbS8mecw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">客廳清潔</h5>
+                            <div class="d-flex">
+                                <ul>
+                                    <li>沙發擦拭</li>
+                                    <li>桌、櫃擦拭</li>
+                                    <li>燈具表面擦拭</li>
+                                    <li>垃圾打包</li>
+                                </ul>
+                                <ul>
+                                    <li>地毯除塵</li>
+                                    <li>地板清潔</li>
+                                    <li>雜物整理</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex">
+                                <ul class="list-unstyled">
+                                    <li><span class="text-danger mx-1"><i class="fas fa-times"></i></span>沙發深層污漬</li>
+                                    <li><span class="text-danger mx-1"><i class="fas fa-times"></i></span>天花板層板清潔</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li><span class="text-danger mx-2"><i class="fas fa-times"></i></span>地毯深層污漬</li>
+                                    <li><span class="text-danger mx-2"><i class="fas fa-times"></i></span>吊燈清潔</li>
+                                </ul>
+                            </div>
+                            <p class="card-text text-muted">建議您與潔客可採用安全之方式拆下後，交由潔客做清洗。</p> 
+                            </div>
+                            <div class="row">
+                                <div class="col-4 mx-3">
+                                    <i class="far fa-clock fa-3x"></i>
+                                    <span >0.5~1.5</span>
+                                </div>
+                                <div class="col-6 position-relative">
+                                    <div class="position-absolute position-text top-0 start-0">普通清潔</div>
+                                    <div class="position-absolute position-text top-0 end-0">空間大、許久未整理</div>
+                                    <div class="progress position-absolute top-50 start-50 translate-middle" style="height: 2px;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0"></div>
+                                    </div>
+                                    <div class="position-absolute bottom-0 start-0">0.5 hr</div>
+                                    <div class="position-absolute bottom-0 end-0">1.5 hr</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 pt-3">
+                        <div class="card" style="width: 22rem;">
+                            <img src="https://s3-alpha-sig.figma.com/img/4559/3083/0f802a7dc7abc13d5f2055c820679c4d?Expires=1623628800&Signature=P89-iT6iaKvCectJhrBAMD1QMeB0g4tfmshDdX8hxqr9pIc4lVW6oNEObg~Kt8ZdvgiEOfUhizjA4541UyMrsDEq1VdUNaByvx8O6s0z~7v27hFVKQ27R9jWE3DvVLs0CkuZDeqmK-LAUMjwZmXbVd2nYFVYTy~zdwASQP1E1Rd3-1o-2u1l6iQl~nHYKPnmuHqh3tPYeB~7VlPP5AXT1N~STw5nrJuCCtVxx7Am-Uf61S3RZs0X78fvQa4dtSh7uGclCyY87gQ3p9hWTcfY7rTSe2QuwGP8-HGF7oSXD5ACHaj2uk3iV1GBLGe2REvoiEKxOzu3b2bUD7RbS8mecw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">客廳清潔</h5>
+                            <div class="d-flex">
+                                <ul>
+                                    <li>沙發擦拭</li>
+                                    <li>桌、櫃擦拭</li>
+                                    <li>燈具表面擦拭</li>
+                                    <li>垃圾打包</li>
+                                </ul>
+                                <ul>
+                                    <li>地毯除塵</li>
+                                    <li>地板清潔</li>
+                                    <li>雜物整理</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex">
+                                <ul class="list-unstyled">
+                                    <li><span class="text-danger mx-1"><i class="fas fa-times"></i></span>沙發深層污漬</li>
+                                    <li><span class="text-danger mx-1"><i class="fas fa-times"></i></span>天花板層板清潔</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li><span class="text-danger mx-2"><i class="fas fa-times"></i></span>地毯深層污漬</li>
+                                    <li><span class="text-danger mx-2"><i class="fas fa-times"></i></span>吊燈清潔</li>
+                                </ul>
+                            </div>
+                            <p class="card-text text-muted">建議您與潔客可採用安全之方式拆下後，交由潔客做清洗。</p> 
+                            </div>
+                            <div class="row">
+                                <div class="col-4 mx-3">
+                                    <i class="far fa-clock fa-3x"></i>
+                                    <span >0.5~1.5</span>
+                                </div>
+                                <div class="col-6 position-relative">
+                                    <div class="position-absolute position-text top-0 start-0">普通清潔</div>
+                                    <div class="position-absolute position-text top-0 end-0">空間大、許久未整理</div>
+                                    <div class="progress position-absolute top-50 start-50 translate-middle" style="height: 2px;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0"></div>
+                                    </div>
+                                    <div class="position-absolute bottom-0 start-0">0.5 hr</div>
+                                    <div class="position-absolute bottom-0 end-0">1.5 hr</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 pt-3">
+                        <div class="card" style="width: 22rem;">
+                            <img src="https://s3-alpha-sig.figma.com/img/4559/3083/0f802a7dc7abc13d5f2055c820679c4d?Expires=1623628800&Signature=P89-iT6iaKvCectJhrBAMD1QMeB0g4tfmshDdX8hxqr9pIc4lVW6oNEObg~Kt8ZdvgiEOfUhizjA4541UyMrsDEq1VdUNaByvx8O6s0z~7v27hFVKQ27R9jWE3DvVLs0CkuZDeqmK-LAUMjwZmXbVd2nYFVYTy~zdwASQP1E1Rd3-1o-2u1l6iQl~nHYKPnmuHqh3tPYeB~7VlPP5AXT1N~STw5nrJuCCtVxx7Am-Uf61S3RZs0X78fvQa4dtSh7uGclCyY87gQ3p9hWTcfY7rTSe2QuwGP8-HGF7oSXD5ACHaj2uk3iV1GBLGe2REvoiEKxOzu3b2bUD7RbS8mecw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">客廳清潔</h5>
+                            <div class="d-flex">
+                                <ul>
+                                    <li>沙發擦拭</li>
+                                    <li>桌、櫃擦拭</li>
+                                    <li>燈具表面擦拭</li>
+                                    <li>垃圾打包</li>
+                                </ul>
+                                <ul>
+                                    <li>地毯除塵</li>
+                                    <li>地板清潔</li>
+                                    <li>雜物整理</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex">
+                                <ul class="list-unstyled">
+                                    <li><span class="text-danger mx-1"><i class="fas fa-times"></i></span>沙發深層污漬</li>
+                                    <li><span class="text-danger mx-1"><i class="fas fa-times"></i></span>天花板層板清潔</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li><span class="text-danger mx-2"><i class="fas fa-times"></i></span>地毯深層污漬</li>
+                                    <li><span class="text-danger mx-2"><i class="fas fa-times"></i></span>吊燈清潔</li>
+                                </ul>
+                            </div>
+                            <p class="card-text text-muted">建議您與潔客可採用安全之方式拆下後，交由潔客做清洗。</p> 
+                            </div>
+                            <div class="row">
+                                <div class="col-4 mx-3">
+                                    <i class="far fa-clock fa-3x"></i>
+                                    <span >0.5~1.5</span>
+                                </div>
+                                <div class="col-6 position-relative">
+                                    <div class="position-absolute position-text top-0 start-0">普通清潔</div>
+                                    <div class="position-absolute position-text top-0 end-0">空間大、許久未整理</div>
+                                    <div class="progress position-absolute top-50 start-50 translate-middle" style="height: 2px;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0"></div>
+                                    </div>
+                                    <div class="position-absolute bottom-0 start-0">0.5 hr</div>
+                                    <div class="position-absolute bottom-0 end-0">1.5 hr</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+               <div class="text-center">
+                    <button class="w-25">開始預約></button>
+               </div>
+               
+            </div>   
+        </div>
+    </div>
+
+    <div class="main_2">
+        <div class="container">
+            <h2 class="text-center py-2"> 其他未服務內容</h2>
+            <p class="text-center">基於人員與客戶安全、隱私等考量</p>
+            <div class="d-flex justify-content-sm-around">
+                <ul>
+                    <li>移動或抬起超過10公斤的大型家具或重物</li>
+                    <li>天花板、高處窗戶及可觸及範圍外的表面清潔</li>
+                    <li>無危險性外窗清潔及窗簾、紗窗清洗</li>
+                    <li>寵物排泄及重度汙染區域清潔</li>
+                    <li>危險化學物質處理</li>
+                </ul>
+                <ul>
+                    <li>地毯深度清潔及清洗（基本除塵除外）</li>
+                    <li>各式陳年、染色汙點清潔</li>
+                    <li>除蟲害（例如：蜂窩、昆蟲…等）</li>
+                    <li>垃圾清運工作（不指使潔客將已包裝垃圾移至其他地方丟棄）</li>
+                    <li>室內惡臭環境 ・車庫清潔（基本掃除除外）園藝或院子清潔。</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="main_3 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="main_3_text mt-5 text-center">全台唯一</h1>
+                    <h2 class="main_3_text_1 text-center">挑人員，評價直接看！</h2>
+                    <hr>
+            <ul class="d-flex">
+                <li class="list-unstyled text-center px-2">
+                    <img src="https://s3-alpha-sig.figma.com/img/ecf1/a6bd/6430cf6a8935df368199f2ba6842b9a1?Expires=1623628800&Signature=IdVxhxw6HTaTsdNUB6D~t1sk-bHgLTuqGamwUFMIlX7PVNcPLXDJy96vHHdOViNNdSdlDfZOUFa-s99U3S-5iiyyZdLsimpRFNSpo-MRKqx5u-0PsltqiZRnuAIlMLuZG0Yzt7D7Cmkz-rh~X3l7K0rG3NzzxJVl6tNTfguCExn~7QXH5TAblbvFn0Lmic~EwTUjT2B-GYQRzvF5JMhXrXxFPNJuAvBvR-06EZo5YwMnTKa9XFyVnc1821MN8DYacmxk5wQztu-nMaVbGTeGjh9cAWVS-fzdTrIt~n5rVAmsjgy1ZjtpXzucrDp8b7aVdFxBgjuUClkEEHHOy3MLpg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" width="110" class="img-fluid" alt="">
+                    <p class="text-center">
+                        人員具良民證、清潔證照
+                    </p>
+                </li>
+                <li class="list-unstyled text-center px-2">
+                    <img src="https://s3-alpha-sig.figma.com/img/a46c/2114/eb22cdb040909594a62883b1aa1a1ddf?Expires=1623628800&Signature=DyTcJG7p7DxVC7MWwEt7sm4LLu1hjIpVxdeSvP9GEMV7xpV156CZ~4rLCGr9d7~t4SQca-7ZCcVbfpMcSbnjig5xuCfZ6d6oJqnUxwGpOtiTmDZPnRMF4U5pYA-DYsApMEIFbttSQOSWFiPhI9hQ9Yd-8o7eOot0Pgljp-k8kR40SaUh1ZW-kxt9ctIhvSE0UQbsMf628q4vBLKaxYkr5belkeUyOkSqmjhhKfsGmDZDfiY5q4TfzUJS9mZ5M15FQe92rJz4ktqvUzCA2mvLNO~zS6BnNkC-Wqht5byK9FuhFcwo0JRYoBL6MprY0OTcp3HrRj0N5~lZUDSA6yKyqg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" width="110" class="img-fluid" alt="">
+                    <p class="text-center">今天訂明天掃，即時預約超方便</p></li>
+                <li class="list-unstyled text-center px-2">
+                    <img src="https://s3-alpha-sig.figma.com/img/64a5/c701/14352c0e2d44e3d828bb825c2af6ce0a?Expires=1623628800&Signature=XIzDodsSULs5mJ32tM3VPNbDi4AF2baKy~BnCTaUnOfkDdKy7-mrqR-~61LmZv-L0DMiOKX7vGc1QhyEVnpvFax4IeHV9mdhNl3YDbQQQ~8COzSzH0sTVuP735MJ~3qvTgImwkxMkNf9Aafekzd7fBh2gnqAzQ5Op23aWYYIbJpkuOt29E1KCuLWGWXAwimagCptj7ZDnxjJDFqU2Uz5pTZQ16nXTLzlp9I7ReHqdHrhtwOYAIVgTfBX1MpUbP1QrO1Cq7iDb2RsR4isvUd2Wx8gsJ~OzYTqJ2GJU3e1G4pjrcH3Tn0JlZNshBgnmRsehn07PV7Qnbf0YvFTKbIJ4g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" width="110" class="img-fluid" alt="">
+                    <p class="text-center">價錢、履歷、評價 透明公開</p></li>
+            </ul>
+           
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card" style="width: 8rem;">
+                                <div class="card-body">
+                                  <h5 class="card-title text-center">
+                                      <img src="https://s3-alpha-sig.figma.com/img/c702/619c/30ad21ef2ca096210f670f488dcf0a56?Expires=1623628800&Signature=ZplyGS9EP2Pv6mew7ymG~BGz98B7comPkIyAWeJjg0I62KP-IyMBOpB8gNTZkZwsUMAjp791rPOSPWwktss9Zx2n2Tsu0MklOcJGU4i~n00klGnZ9no4w2oxDy57Irc1ALT1X7Kz97SdX6kt5CS7~bFZKF1p5kh~T9KUB~NRC2BseaBOmh9Mdd7M5jbKkvNt8ciM3vplV9zB9l-LqLq9Sb3MWwvt3RoD4aWssns9XX~rGsaQShKvLr1feCJLIjmAptIHOwOykSI-mWypBWEDyTKx4zElTLzyPn7IyYaKalKyx0k2HhLmPP4Tn7zjlB6N55WA3ygitq80nsWIkzKCpA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" class="rounded-circle" width="50" alt="">
+                                  </h5>
+                                  <h6 class="card-subtitle mb-2 text-muted text-center">台北市</h6>
+                                  <p class="card-text text-center">潔客＊</p>
+                                  <p>4.7 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <p class="text-center">$500/hr</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3">2</div>
+                        <div class="col-md-3">3</div>
+                        <div class="col-md-3">4</div>
+                        <div class="col-md-3">5</div>
+                        <div class="col-md-3">6</div>
+                        <div class="col-md-3">7</div>
+                        <div class="col-md-3">8</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
